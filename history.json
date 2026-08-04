@@ -1,0 +1,193 @@
+{
+  "updated": "2026-08-04",
+  "dates": [
+    "2026-07-03",
+    "2026-07-04",
+    "2026-07-05",
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-11",
+    "2026-07-12",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-18",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-26",
+    "2026-07-27",
+    "2026-07-28",
+    "2026-07-29",
+    "2026-07-30",
+    "2026-07-31",
+    "2026-08-01",
+    "2026-08-02",
+    "2026-08-03",
+    "2026-08-04"
+  ],
+  "rag_legend": {
+    "G": "on track",
+    "Y": "at risk",
+    "R": "off track",
+    ".": "not tracked"
+  },
+  "rag": {
+    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGG",
+    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGG",
+    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYY",
+    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYY",
+    "Dow Jones Graviton Migration": "...............................G",
+    "Operator Console": "...............................G",
+    "CC PAC Market Push": "...............................Y",
+    "Genesys Deprecation": "...............................R",
+    "LDAP → OIDC Migration": "...............................R"
+  },
+  "milestones": [
+    {
+      "project": "Atlanta AWS Migration",
+      "name": "Wave 1 go-live",
+      "baseline": "2026-08-05",
+      "current": "2026-09-02",
+      "history": [
+        {
+          "date": "2026-07-16",
+          "current": "2026-08-05",
+          "note": "baseline set"
+        },
+        {
+          "date": "2026-07-29",
+          "current": "2026-09-02",
+          "note": "Wave 1 reclassified as an isolated dry run (Jul 28 stand-up); real customer-facing migration for Wave 1 apps now bundled with Wave 2 in September, buying 3&#x2013;4 extra testing weeks and removing the Camacho firewall SPOF risk."
+        }
+      ]
+    },
+    {
+      "project": "Canada AWS Platform",
+      "name": "Platform complete",
+      "baseline": "2026-08-19",
+      "current": "2026-08-19",
+      "history": [
+        {
+          "date": "2026-07-16",
+          "current": "2026-08-19",
+          "note": "baseline set"
+        }
+      ]
+    },
+    {
+      "project": "IDP",
+      "name": "Lightning Bolt production release",
+      "baseline": "2026-08-15",
+      "current": "2026-11-30",
+      "history": [
+        {
+          "date": "2026-07-16",
+          "current": "2026-12-31",
+          "note": "Orrian pushed LB prod work to end of year (Slack to Tracy Canepa, Jul 14)"
+        },
+        {
+          "date": "2026-07-30",
+          "current": "2026-11-30",
+          "note": "Per Jon 2026-07-30: after discussion with Orrian and Scott S., the Lightning Bolt release is pushed to November (specific date TBD). Scott chose the later date because his team can only dedicate a couple of hours a week to the effort right now, and he wants the release fully tested and ready to avoid another rollback (per the June 17 rollback/RCA). Milestone current recorded as 2026-11-30 pending a firm day."
+        }
+      ]
+    },
+    {
+      "project": "OC West Expansion",
+      "name": "Production Build &amp; Deployment",
+      "baseline": "2026-10-09",
+      "current": "2026-10-09",
+      "history": [
+        {
+          "date": "2026-07-27",
+          "current": "2026-10-09",
+          "note": "New milestone added per Jon: production build &amp; deployment phase starts Jul 27, targeting Oct 9 completion."
+        },
+        {
+          "date": "2026-07-30",
+          "current": "2026-10-09",
+          "note": "Lamine has resigned; zero developers currently on staff with the required skill set for this build. Dev/QA (East) switched to use Aurora Global West, but no one is available to build on that progress. Oct 9 target is at serious risk pending backfill — RAG moves to red (per Jon 2026-07-30)."
+        },
+        {
+          "date": "2026-08-03",
+          "current": "2026-10-09",
+          "note": "Backfill confirmed: contractor Adam Nagle accepted the role vacated by Lamine, starting Aug 4 pending background check (per LP Internal: OC West Expansion Stand-up, 2026-08-03). Oct 9 target treated as recovering, not yet secure; a new unofficial customer-side September deadline ask is a fresh risk to watch."
+        }
+      ]
+    },
+    {
+      "project": "Dow Jones Graviton Migration",
+      "name": "Program completion",
+      "baseline": "2027-07-16",
+      "current": "2027-07-16",
+      "history": [
+        {
+          "date": "2026-08-04",
+          "current": "2027-07-16",
+          "note": "Baseline set by Jon; 1-year program from kickoff Jul 16, 2026. Aug 4 stand-up: EC2 instance created, AWS Transform access unblocked — moved to GREEN."
+        }
+      ]
+    },
+    {
+      "project": "Operator Console",
+      "name": "Phase 1 release",
+      "baseline": "2026-06-30",
+      "current": "2026-08-12",
+      "history": [
+        {
+          "date": "2026-08-04",
+          "current": "2026-08-12",
+          "note": "Per the 8/3 status update: Phase 1 dev 100% complete; release retargeted from the original Jun 30 phase-end to Aug 12 (release challenge Aug 6)."
+        }
+      ]
+    },
+    {
+      "project": "CC PAC Market Push",
+      "name": "Phase 1 Post-Acute Dev complete",
+      "baseline": "2026-08-15",
+      "current": "2026-08-15",
+      "history": [
+        {
+          "date": "2026-08-04",
+          "current": "2026-08-15",
+          "note": "Per the 8/3 status update and Jon (8/4): last week of Phase 1; overall dev 90% complete, 5 stories awaiting PR approval with Adam out."
+        }
+      ]
+    },
+    {
+      "project": "Genesys Deprecation",
+      "name": "Complete remaining local numbers",
+      "baseline": "2026-12-31",
+      "current": "2026-12-31",
+      "history": [
+        {
+          "date": "2026-08-04",
+          "current": "2026-12-31",
+          "note": "Per Jon's 7/27 status update: percent complete and completion date are TBD — 502 local numbers hit new issues, awaiting Doug's status. Baseline reflects Jon's earlier Dec 31 target; may move to TBD."
+        }
+      ]
+    },
+    {
+      "project": "LDAP → OIDC Migration",
+      "name": "All customers transitioned",
+      "baseline": "2026-08-31",
+      "current": "2026-08-31",
+      "history": [
+        {
+          "date": "2026-08-04",
+          "current": "2026-08-31",
+          "note": "Per Jon's 7/27 status update: Dev 100% complete; Customer Support 15% (5 of 33 clients). Aug 31 is the Atlanta datacenter decommission drop-dead date."
+        }
+      ]
+    }
+  ]
+}
