@@ -355,8 +355,15 @@ async function publishToGitHub(htmlSnapshot, statusEl) {
       const text = await resp.text();
       throw new Error(text || ('HTTP ' + resp.status));
     }
-    statusEl.textContent = 'Published to GitHub — live in ~30s';
-    statusEl.style.color = 'var(--green-fg)';
+    let result = {};
+    try { result = await resp.json(); } catch (e) { /* older worker may not return JSON */ }
+    if (result.historySyncError) {
+      statusEl.textContent = 'Published to GitHub — live in ~30s (history.json sync failed: ' + result.historySyncError + ' — Status History/Milestones may lag until next scheduled run)';
+      statusEl.style.color = '#b45309';
+    } else {
+      statusEl.textContent = 'Published to GitHub — live in ~30s (Status History & Milestones synced)';
+      statusEl.style.color = 'var(--green-fg)';
+    }
   } catch (err) {
     statusEl.textContent = 'Saved locally, but publish failed: ' + err.message;
     statusEl.style.color = 'var(--red-fg)';
