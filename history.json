@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "dates": [
     "2026-07-03",
     "2026-07-04",
@@ -33,7 +33,8 @@
     "2026-08-02",
     "2026-08-03",
     "2026-08-04",
-    "2026-08-06"
+    "2026-08-06",
+    "2026-08-07"
   ],
   "rag_legend": {
     "G": "on track",
@@ -42,15 +43,15 @@
     ".": "not tracked"
   },
   "rag": {
-    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGG",
-    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGY",
-    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYY",
-    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYY",
-    "Dow Jones Graviton Migration": "...............................GG",
-    "Operator Console": "...............................GG",
-    "CC PAC Market Push": "...............................YY",
-    "Genesys Deprecation": "...............................RR",
-    "LDAP → OIDC Migration": "...............................RR"
+    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGGG",
+    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGYY",
+    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYYY",
+    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYYY",
+    "Dow Jones Graviton Migration": "...............................GGY",
+    "Operator Console": "...............................GGG",
+    "CC PAC Market Push": "...............................YYY",
+    "Genesys Deprecation": "...............................RRR",
+    "LDAP → OIDC Migration": "...............................RRR"
   },
   "milestones": [
     {
@@ -135,6 +136,11 @@
           "date": "2026-08-04",
           "current": "2027-07-16",
           "note": "Baseline set by Jon; 1-year program from kickoff Jul 16, 2026. Aug 4 stand-up: EC2 instance created, AWS Transform access unblocked — moved to GREEN."
+        },
+        {
+          "date": "2026-08-07",
+          "current": "2027-07-16",
+          "note": "Aug 6 Graviton Migration Daily Standup: recurring EC2 access policy-overwrite issue causing daily loss of instance access (“moving blocker”) — moved to YELLOW/AT RISK. Scott investigating root cause; program end date unchanged."
         }
       ]
     },
