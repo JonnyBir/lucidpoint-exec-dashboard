@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07",
+  "updated": "2026-08-17",
   "dates": [
     "2026-07-03",
     "2026-07-04",
@@ -34,7 +34,8 @@
     "2026-08-03",
     "2026-08-04",
     "2026-08-06",
-    "2026-08-07"
+    "2026-08-07",
+    "2026-08-17"
   ],
   "rag_legend": {
     "G": "on track",
@@ -43,15 +44,15 @@
     ".": "not tracked"
   },
   "rag": {
-    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGGG",
-    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGYY",
-    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYYY",
-    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYYY",
-    "Dow Jones Graviton Migration": "...............................GGY",
-    "Operator Console": "...............................GGG",
-    "CC PAC Market Push": "...............................YYY",
-    "Genesys Deprecation": "...............................RRR",
-    "LDAP → OIDC Migration": "...............................RRR"
+    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGGGG",
+    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGYYY",
+    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYYYY",
+    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYYYY",
+    "Dow Jones Graviton Migration": "...............................GGYY",
+    "Operator Console": "...............................GGGG",
+    "CC PAC Market Push": "...............................YYYY",
+    "Genesys Deprecation": "...............................RRRR",
+    "LDAP → OIDC Migration": "...............................RRRR"
   },
   "milestones": [
     {
