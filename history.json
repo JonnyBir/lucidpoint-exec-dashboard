@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-20",
   "dates": [
     "2026-07-03",
     "2026-07-04",
@@ -35,7 +35,8 @@
     "2026-08-04",
     "2026-08-06",
     "2026-08-07",
-    "2026-08-17"
+    "2026-08-17",
+    "2026-08-20"
   ],
   "rag_legend": {
     "G": "on track",
@@ -44,15 +45,15 @@
     ".": "not tracked"
   },
   "rag": {
-    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGGGG",
-    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGYYY",
-    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYYYY",
-    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYYYY",
-    "Dow Jones Graviton Migration": "...............................GGYY",
-    "Operator Console": "...............................GGGG",
-    "CC PAC Market Push": "...............................YYYY",
-    "Genesys Deprecation": "...............................RRRR",
-    "LDAP → OIDC Migration": "...............................RRRR"
+    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGGGGG",
+    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGYYYY",
+    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYYYYY",
+    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYYYYY",
+    "Dow Jones Graviton Migration": "...............................GGYYY",
+    "Operator Console": "...............................GGGGG",
+    "CC PAC Market Push": "...............................YYYYY",
+    "Genesys Deprecation": "...............................RRRRR",
+    "LDAP → OIDC Migration": "...............................RRRRR"
   },
   "milestones": [
     {
@@ -77,12 +78,17 @@
       "project": "Canada AWS Platform",
       "name": "Platform complete",
       "baseline": "2026-08-19",
-      "current": "2026-08-19",
+      "current": "2026-09-11",
       "history": [
         {
           "date": "2026-07-16",
           "current": "2026-08-19",
           "note": "baseline set"
+        },
+        {
+          "date": "2026-08-20",
+          "current": "2026-09-11",
+          "note": "Per the Aug 18 Canadian AWS Platform Weekly Stand-up: completion target reset from Aug 19 to Sep 11, driven by the Canada VPN/CIDR blocker (pending Tony) that halts all data-plane work."
         }
       ]
     },
@@ -181,6 +187,11 @@
           "date": "2026-08-04",
           "current": "2026-12-31",
           "note": "Per Jon's 7/27 status update: percent complete and completion date are TBD — 502 local numbers hit new issues, awaiting Doug's status. Baseline reflects Jon's earlier Dec 31 target; may move to TBD."
+        },
+        {
+          "date": "2026-08-20",
+          "current": "2026-12-31",
+          "note": "Per the Aug 20 \"FW: Genesys Timeline\" roadmap realignment: December 2026 reconfirmed as a firm, non-negotiable deadline. Prior \"possible TBD\" flag on this baseline is lifted; percent-complete for the local-number migration remains TBD."
         }
       ]
     },
