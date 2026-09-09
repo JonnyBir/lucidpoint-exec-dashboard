@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-09-09",
   "dates": [
     "2026-07-03",
     "2026-07-04",
@@ -36,7 +36,8 @@
     "2026-08-06",
     "2026-08-07",
     "2026-08-17",
-    "2026-08-20"
+    "2026-08-20",
+    "2026-09-09"
   ],
   "rag_legend": {
     "G": "on track",
@@ -45,15 +46,15 @@
     ".": "not tracked"
   },
   "rag": {
-    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGGGGG",
-    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGYYYY",
-    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYYYYY",
-    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYYYYY",
-    "Dow Jones Graviton Migration": "...............................GGYYY",
-    "Operator Console": "...............................GGGGG",
-    "CC PAC Market Push": "...............................YYYYY",
-    "Genesys Deprecation": "...............................RRRRR",
-    "LDAP → OIDC Migration": "...............................RRRRR"
+    "Atlanta AWS Migration": "YYYYRYYYYYYYYYYYYYYYYYYYYGGGGGGGGGGGG",
+    "Canada AWS Platform": "GYGGGGYYYYYYYYGGGGGGGGGGGGGGGGGGYYYYY",
+    "IDP": "YYYYYYYYYYYYRRRRRRRRRRRRRRYYYYYYYYYYR",
+    "OC West Expansion": "RRRRRYGGGGGGGRGGGGGYGGGGGGRRRRYYYYYYY",
+    "Dow Jones Graviton Migration": "...............................GGYYYY",
+    "Operator Console": "...............................GGGGGG",
+    "CC PAC Market Push": "...............................YYYYYY",
+    "Genesys Deprecation": "...............................RRRRRR",
+    "LDAP → OIDC Migration": "...............................RRRRRR"
   },
   "milestones": [
     {
@@ -107,6 +108,11 @@
           "date": "2026-07-30",
           "current": "2026-11-30",
           "note": "Per Jon 2026-07-30: after discussion with Orrian and Scott S., the Lightning Bolt release is pushed to November (specific date TBD). Scott chose the later date because his team can only dedicate a couple of hours a week to the effort right now, and he wants the release fully tested and ready to avoid another rollback (per the June 17 rollback/RCA). Milestone current recorded as 2026-11-30 pending a firm day."
+        },
+        {
+          "date": "2026-09-09",
+          "current": "2026-11-30",
+          "note": "Sep 9 IDP Phase 2 production release deployed, then rolled back same day after Okta production issues surfaced that were never validated in a lower environment (no Okta sandbox was available for pre-release testing). Errors confirmed decreasing as APIs recycle; team triaging each remaining error individually. Lightning Bolt's separate Nov 30 (TBD) recovery milestone is unaffected; next Phase 2 production attempt date not yet set pending an Okta lower-env test plan."
         }
       ]
     },
